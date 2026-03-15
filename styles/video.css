@@ -32,8 +32,24 @@
     }
     .thumbnailrow{
       margin-bottom: 12px;
+      position: relative;
     }
     .videoinfogrid{
       display: grid;
       grid-template-columns: 50px 1fr;
+    }
+    .videotime{
+      background-color: black;
+      color: white;
+      font-size: 12px;
+      font-weight: 500;
+      padding-left: 4px;
+      padding-right: 4px;
+      padding-top: 4px;
+      border-radius: 2px;
+      padding-bottom: 4px;
+      font-family: robot, arial;
+      position:absolute;
+      bottom: 8px;
+      right: 5px;
     }
